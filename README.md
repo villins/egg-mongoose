@@ -25,7 +25,7 @@ Egg's mongoose plugin.
 ## Install
 
 ```bash
-$ npm i egg-mongoose --save
+$ npm i egg-mongoose --save # (just use npm link)
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ $ npm i egg-mongoose --save
 // {app_root}/config/plugin.js
 exports.mongoose = {
   enable: true,
-  package: 'mongoose',
+  package: 'egg-mongoose',
 };
 ```
 
